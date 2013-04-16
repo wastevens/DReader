@@ -1,0 +1,17 @@
+<div data-dojo-attach-point="feedItemNode" class="maxLength elementDivider leftborder">
+  <div data-dojo-attach-point="feedItemChannelNode" class="feedItemChannelName">
+    ${feedItemChannelName}  
+  </div>
+  <div data-dojo-attach-point="feedItemTitleNode" class="feedItemTitle">
+    <a href="${link}">${title}</a>
+  </div>
+  <div data-dojo-attach-point="feedItemPublishedTimeNode" class="feedItemPublishedTime">
+    ${displayablePublicationDate}
+  </div>
+  <br>
+  <div data-dojo-attach-point="feedItemContentNode" class="feedItem content hidden">
+    ${!description}
+  </div>
+</div>
+
+

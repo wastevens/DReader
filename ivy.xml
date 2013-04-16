@@ -1,0 +1,23 @@
+<ivy-module version="2.0">
+    <info organisation="com.dstevens" module="dreader"/>
+        <configurations>
+        <conf name="sources"  description="Source jars"/>
+        <conf name="binaries" description="binary jars"/>
+    </configurations>
+    <dependencies>
+        <dependency org="org.springframework" name="spring-core" rev="3.2.2.RELEASE" conf="binaries->default"/>
+        <dependency org="org.springframework" name="spring-web" rev="3.2.2.RELEASE" conf="binaries->default"/>
+        <dependency org="org.springframework" name="spring-webmvc" rev="3.2.2.RELEASE" conf="binaries->default"/>
+        <dependency org="com.thoughtworks.xstream" name="xstream" rev="1.4.4" conf="binaries->default"/>
+        <dependency org="joda-time" name="joda-time" rev="2.2" conf="binaries->default"/>
+        <dependency org="org.apache.commons" name="commons-io" rev="1.3.2" conf="binaries->default"/>
+        <dependency org="org.mockito" name="mockito-all" rev="1.8.4" conf="binaries->default"/>
+        <dependency org="org.mongodb" name="mongo-java-driver" rev="2.10.1" conf="binaries->default"/>
+        <dependency org="commons-httpclient" name="commons-httpclient" rev="3.1" conf="binaries->default"/>
+        <dependency org="org.apache.httpcomponents" name="httpclient" rev="4.2.3" conf="binaries->default"/>
+        <dependency org="javax.servlet.jsp.jstl" name="javax.servlet.jsp.jstl-api" rev="1.2.1" conf="binaries->default"/>
+        <dependency org="org.glassfish.web" name="javax.servlet.jsp.jstl" rev="1.2.1" conf="binaries->default"/>
+        <dependency org="org.codehaus.jackson" name="jackson-jaxrs" rev="1.9.12"/>
+        <dependency org="org.codehaus.jackson" name="jackson-core-asl" rev="1.9.12"/>
+    </dependencies>
+</ivy-module>

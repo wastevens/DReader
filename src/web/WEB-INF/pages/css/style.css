@@ -1,0 +1,79 @@
+.elementDivider {
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+  border-bottom-color:DarkGray;
+}
+
+.leftborder {
+  border-left-style:solid;
+  border-left-width:thin;
+  border-left-color:DarkGray;
+}
+
+.maxLength {
+  float: left;
+  width: 100%;
+}
+
+.feedSummaryChannelName {
+  float: left; 
+  width: 11em;
+  margin-left: 5px; 
+  margin-right: 5px; 
+  Overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+.feedSummaryUnreadCount {
+  float: right; 
+  margin-left: 5px; 
+  margin-right: 5px; 
+  Overflow: hidden; 
+  white-space: nowrap;
+}
+
+.feedSummaryElement {
+  float: left;
+  margin-left: 5px;
+}
+
+.feedItemChannelName {
+  float: left; 
+  width: 11em;
+  margin-left: 5px; 
+  margin-right: 5px; 
+  Overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+.feedItemTitle {
+  float: left; 
+  margin-left: 5px; 
+  margin-right: 5px; 
+  Overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+.feedItemPublishedTime {
+  float: right; 
+  margin-left: 5px; 
+  margin-right: 5px; 
+  Overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.read {
+  background-color: LightGray;
+}
+
+.bold {
+  font-weight: bold;
+}
